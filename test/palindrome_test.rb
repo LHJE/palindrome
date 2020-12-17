@@ -4,6 +4,6 @@ require './lib/palindrome'
 
 class PalindromeTest < Minitest::Test
   def test_get_palindromes
-    assert_equal [109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133], Palindrome.get_palindromes(25)
+    assert_equal [209, 308, 407, 506, 605, 704, 803, 902, 1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017], Palindrome.get_palindromes(25)
   end
 end

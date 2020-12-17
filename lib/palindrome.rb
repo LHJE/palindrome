@@ -1,8 +1,7 @@
 class Palindrome
 
   def self.is_palindrome(potential_palindrome)
-    require "pry"; binding.pry
-    if condition
+    if potential_palindrome == potential_palindrome.to_s.reverse.to_i && potential_palindrome > 1000
       true
     else
       false
