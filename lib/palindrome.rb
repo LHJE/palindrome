@@ -9,6 +9,7 @@ class Palindrome
       elsif
 
         require "pry"; binding.pry
+        return_array << x
       else
         next
       end
