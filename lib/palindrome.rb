@@ -2,7 +2,7 @@ class Palindrome
 
   def self.get_palindromes(number)
     return_array = []
-    (109..Float::INFINITY).each do |x|
+    (209..Float::INFINITY).each do |x|
       potential_palindrome = (x + x.to_s.reverse.to_i)
       if return_array.count == number
         break
