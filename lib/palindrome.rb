@@ -6,7 +6,7 @@ class Palindrome
     # give yourself an empty array that you will fill up with the numbers that match the prompt
     return_array = []
 
-    # Make an infinite array, starting with 1 and never ending.  You will iterate over that to test each number, sequentially.
+    # Make an infinite array, starting with 0 and never ending.  You will iterate over that to test each number, sequentially.
     (0..Float::INFINITY).each do |x|
 
       # create the sum of the number and it's reverse so you can later test to see if it is a palindrome. It may not be!  So it's a "potential" palindrome
